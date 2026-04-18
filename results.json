@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-04-18 22:25",
+  "dataset": "VCTK Corpus",
+  "backbone": "facebook/hubert-base-ls960",
+  "speakers": 109,
+  "forget_spks": [
+    "p225",
+    "p226"
+  ],
+  "results": {
+    "before": {
+      "forget_acc": "100.0%",
+      "retain_acc": "94.4%"
+    },
+    "after": {
+      "forget_acc": "0.0%",
+      "retain_acc": "71.0%",
+      "mia_forget_conf": 0.0,
+      "mia_random": 0.0092,
+      "privacy_gap": -0.0092,
+      "content_sim": 0.9984
+    }
+  }
+}
