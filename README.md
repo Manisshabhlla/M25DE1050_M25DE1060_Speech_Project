@@ -12,8 +12,6 @@ Results at a Glance
 | WER (Whisper-tiny) | — | **3.92** | Low WER | ✅ PASS |
 
 > **All 6 targets achieved.** The model completely forgets p225 & p226 while retaining 96.4% accuracy on the remaining 107 speakers.
->
-> What Is This?
 
 Modern self-supervised speech models like **HuBERT** encode both *phonetic content* and *speaker identity* in the same 768-dimensional hidden state. This creates a serious privacy risk — if a user revokes consent, their voice remains embedded in the model with no way to remove it short of full retraining (which costs thousands of dollars and weeks of GPU time).
 
