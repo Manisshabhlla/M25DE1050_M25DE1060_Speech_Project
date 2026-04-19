@@ -52,10 +52,29 @@ Raw Audio (16kHz)
 
 ---
 
-**Installation**
+## ▶️ Installation
 
 git clone https://github.com/Manisshabhlla/M25DE1050_M25DE1060_Speech_Project.git
+
 pip install -r requirements.txt
+
+## ▶️ Usage
+
+The entire workflow is implemented in a single Jupyter Notebook.
+
+### Run Instructions
+
+1. Start Jupyter Notebook:
+
+```bash
+
+jupyter notebook
+
+2. Open:
+
+SpeechUnderstanding_project.ipynb
+
+3. Run all cells sequentially.
 
 ## 🔬 Methodology
 
